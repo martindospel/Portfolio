@@ -1,0 +1,154 @@
+.app {
+  background-color: #aeaeae;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  padding: 4rem 2rem;
+
+  @media screen and (max-width: 450px) {
+    padding: 4rem 1rem 2rem;
+  }
+}
+
+.title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  text-align: center;
+  color: floralwhite;
+  text-transform: capitalize;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 4rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 2rem;
+  }
+}
+
+.paragraph {
+  font-size: 0.8rem;
+  text-align: left;
+  color: rgb(52, 51, 51);
+  line-height: 1.5;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 1.75rem;
+  }
+}
+
+.titlebold {
+  font-size: 1rem;
+  font-weight: 800;
+  color: rgb(29, 29, 29);
+  text-align: left;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 0.9rem;
+  }
+}
+
+.socials {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+
+  div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin: 0.25rem 0;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+
+    svg {
+      width: 15px;
+      height: 15px;
+      color: rgb(61, 61, 61);
+    }
+
+    &:hover {
+      background-color: whitesmoke;
+      border-color: whitesmoke;
+      cursor: pointer;
+
+      svg {
+        color: grey;
+      }
+    }
+
+    @media screen and (min-width: 2000px) {
+      width: 70px;
+      height: 70px;
+      margin: 0.5rem 0;
+
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
+
+.navigator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+
+  .navigator-dot {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    margin: 0.5rem;
+
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: whitesmoke;
+    }
+
+    @media screen and (min-width: 2000px) {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navigator,
+  .socials {
+    display: none;
+  }
+}

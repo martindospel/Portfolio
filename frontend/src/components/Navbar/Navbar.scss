@@ -1,0 +1,129 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(240, 238, 238, 0.61);
+    box-shadow: 0 8px 32px 0 rgba(148, 147, 147, 0.37);
+    position: fixed;
+    z-index: 2;
+  }
+  
+  .navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  
+    li {
+      margin: 0 1rem;
+      cursor: pointer;
+      flex-direction: column;
+  
+      div {
+        width: 6px;
+        height: 6px;
+        margin-bottom: 7px;
+      }
+  
+      a {
+        color: lightslategrey;
+        text-decoration: none;
+        flex-direction: column;
+        text-transform: uppercase;
+        font-weight: 900;
+        transition: all 0.2s ease-in-out;
+  
+        &:hover {
+          color: whitesmoke;
+        }
+      }
+    }
+  
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
+  }
+  
+  .navbar-menu {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+  
+    svg {
+      width: 70%;
+      height: 70%;
+      color: rgb(67, 67, 67);
+    }
+  
+    div {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 5;
+      padding: 1rem;
+      width: 80%;
+      height: 100vh;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      flex-direction: column;
+      background-color: whitesmoke;
+      background-size: cover;
+      background-repeat: repeat;
+      box-shadow: 0px 0px 20px rgba(176, 176, 176, 0.15);
+  
+      svg {
+        width: 35px;
+        height: 35px;
+        color: rgb(61, 61, 61);
+        margin: 0.5rem 1rem;
+      }
+  
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+  
+        li {
+          margin: 1rem;
+
+          a {
+            color: rgb(78, 78, 78);
+            text-decoration: none;
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: 500;
+            transition: all 0.2s ease-in-out;
+  
+            &:hover {
+              color: rgb(138, 138, 138);
+            }
+          }
+        }
+      }
+  
+      @media screen and (min-width: 900px) {
+        display: none;
+      }
+    }
+  
+    @media screen and (min-width: 900px) {
+      display: none;
+    }
+  }
