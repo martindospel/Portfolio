@@ -5,10 +5,10 @@ import { AppWrap } from '../../wrapper';
 import './About.scss';
 
 const aboutSections = [
-  {title: "Frontend", description: "I am passionate about using technologies such as React to provide the user with a beautifully crafted interface"},
-  {title: "Backend", description: "I love developing my understanding about the underlying functionality of technologies"},
-  {title: "Fullstack", description: "To have full control over the frontend and backend is something that I really enjoy"},
-  {title: "UI/UX", description: "My passion is to design a riveting information structure to that the user's flow seems clear, consistent and unforgettable"}
+  {title: "About me", description: "I was born in Slovakia and raised in the UK where I obtained my International Relations degree. In the following years, I worked in 3 different countries, and in 3 different industries. At a pivotal moment, I decided to listen to what I was really passionate about. That's when I decided I had to become a software developer."},
+  {title: "Frontend", description: "Making a responsive, well-tested frontend with the use of popular frameworks is an integral part of a developer's skillset. I enjoy this kind of work because it gives me the freedom to make beautifully styled and reliable interfaces."},
+  {title: "Backend", description: "By utilizing NodeJS and JavaScript, I am able to make lightweight, dynamic and asynchronous apps. I have found GoLang to be very useful since it makes developing applications more effective and easier to test."},
+  {title: "Fullstack", description: "Whilst being comfortable with version control, web hosting platforms and database management systems, I have also learned the importance of agile working methods when working as a full stack developer."}
 ]
 
 const About = () => {
