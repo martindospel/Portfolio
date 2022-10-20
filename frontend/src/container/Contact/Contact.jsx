@@ -66,9 +66,9 @@ const Contact = () => {
             value="SEND"
             id="input-submit"
             onClick={() => {
-              (document.getElementById("input-name").value != "") &
-                (document.getElementById("input-email").value != "") &
-                (document.getElementById("input-message").value != "") &&
+              (document.getElementById("input-name").value !== "") &
+                (document.getElementById("input-email").value !== "") &
+                (document.getElementById("input-message").value !== "") &&
                 alert(
                   "Thank you for your message! I will get back to you shortly."
                 );
