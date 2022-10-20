@@ -1,0 +1,44 @@
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+
+  input,
+  textarea {
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: "Comfortaa", sans-serif;
+    resize: none;
+  }
+
+  #input-submit {
+    color: white;
+    background: rgb(97, 96, 96);
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 0 25px whitesmoke;
+        background: rgb(130, 129, 129);
+    }
+  }
+
+  textarea {
+    height: 126px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  input {
+    height: 320px;
+  }
+}
+
+.title {
+  user-select: none;
+  margin-bottom: 3rem;
+}
