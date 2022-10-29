@@ -34,7 +34,7 @@ const Contact = () => {
       <div className="contact-section">
         <h2 className="title">
           <br />
-          Get in touch.
+          Have any questions? Get in touch.
         </h2>
         <form ref={form} onSubmit={sendEmail} className="contact-form">
           <div className="contact-form">
