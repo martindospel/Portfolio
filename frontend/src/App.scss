@@ -1,5 +1,4 @@
 .app {
-  // background-color: #aeaeae;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -155,7 +154,10 @@
 
 .video {
   position: fixed;
-  z-index: -1
+  z-index: -1;
+  align-self: center;
+  width: 100%;
+  resize: contain;
 }
 
 @media (min-aspect-ration: 16/9) {
