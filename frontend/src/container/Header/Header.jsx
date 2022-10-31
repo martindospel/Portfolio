@@ -43,7 +43,7 @@ const Header = () => (
       whileInView={{ x: [-100, 1], opacity: [0, 1] }}
       className="header-images"
     >
-      {[images.scssblack, images.react, images.tsblack].map((image, index) => (
+      {[images.api, images.react, images.tsblack].map((image, index) => (
         <div className="flex" key={`image-${index}`}>
           <img src={image} alt="personal-technologies" />
         </div>
