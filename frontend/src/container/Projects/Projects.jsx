@@ -43,7 +43,7 @@ const Projects = () => {
       <h2 className="title">My projects.</h2>
 
       <div className="projects-filter">
-        {["React", "TypeScript", "Qwik", "API", "Go", "All"].map((item, index) => (
+        {["React", "TypeScript", "React Native", "API", "Go", "All"].map((item, index) => (
           <div
             key={index}
             onClick={() => projectsHandler(item)}
