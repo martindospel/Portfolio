@@ -24,9 +24,7 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-    document.getElementById("input-name").value = "";
-    document.getElementById("input-email").value = "";
-    document.getElementById("input-message").value = "";
+      e.target.reset()
   };
 
   return (
