@@ -24,8 +24,8 @@ const Header = () => (
       className="personal-info"
     >
       <div className="personal-name">
-        <div className="badge flex">
-          <div style={{ marginTop: 100 }}>
+        <div className="flex">
+          <div>
             <h1 className="title">Martin Dospel</h1>
           </div>
         </div>
