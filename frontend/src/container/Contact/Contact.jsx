@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "./Contact.scss";
 import emailjs from "emailjs-com";
 import { AppWrap, MotionWrap } from "../../wrapper";
+// import { FaAngleUp } from "react-icons/fa";
 
 const Contact = () => {
   const form = useRef();
@@ -24,7 +25,7 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-      e.target.reset()
+    e.target.reset();
   };
 
   return (
@@ -74,6 +75,19 @@ const Contact = () => {
           />
         </form>
       </div>
+      {/* <div className="top-to-btm">
+        <div className="icon-position">
+          <FaAngleUp
+            className="icon-style"
+            onClick={() => {
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+              });
+            }}
+          />
+        </div>
+      </div> */}
     </>
   );
 };

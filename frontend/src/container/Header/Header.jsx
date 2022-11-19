@@ -29,6 +29,10 @@ const Header = () => (
             <h1 className="title">Martin Dospel</h1>
           </div>
         </div>
+      {/* <div className="personal-bio">
+        Welcome to my portfolio. I am a passionate software developer but above
+        all I am an enthusiastic problem solver who loves to learn new things
+      </div> */}
       </div>
     </motion.div>
     <motion.div
