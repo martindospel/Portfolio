@@ -36,7 +36,7 @@ const Header = () => (
       transition={{ duration: 0.25, delayChildren: 0.25 }}
       className="personal-pic"
     >
-      <img src={images.mecropped2} alt="personal-pic" />
+      <img src={images.mecircle} alt="personal-pic" />
     </motion.div>
     <motion.div
       variants={viewScale}

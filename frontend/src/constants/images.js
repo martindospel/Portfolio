@@ -8,7 +8,7 @@ import heroku from "../assets/heroku.png";
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
 import jest from "../assets/jest.png";
-import mecropped2 from "../assets/mecropped2.png";
+import mecircle from "../assets/mecircle.png";
 import mongodb from "../assets/mongodb.png";
 import mongoose from "../assets/mongoose.png";
 import moonmodeler from "../assets/moonmodeler.png";
@@ -42,7 +42,7 @@ export default {
   tsblack,
   scssblack,
   jest,
-  mecropped2,
+  mecircle,
   api,
   css,
   figma,
