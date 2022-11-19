@@ -1,6 +1,7 @@
 .app {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+    background-color: rgb(146, 146, 146);
 }
 
 .container {
@@ -150,46 +151,5 @@
   .navigator,
   .socials {
     display: none;
-  }
-}
-
-.video {
-  position: fixed;
-  z-index: -1;
-  align-self: center;
-  width: 100%;
-  resize: contain;
-}
-
-@media (min-aspect-ration: 16/9) {
-  .video {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media (max-aspect-ration: 16/9) {
-  .video {
-    width: auto;
-    height: 100%;
-  }
-}
-
-@media (max-width: 1200px) {
-  .video {
-    display: none;
-  }
-}
-
-#overlay {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(238, 236, 236, 0.544);
-  z-index: 2;
-}
-
-@media (max-width: 1200px) {
-  #overlay {
-    background-color: rgba(92, 92, 92, 0.544);
   }
 }
