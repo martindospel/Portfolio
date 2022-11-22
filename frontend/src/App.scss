@@ -1,7 +1,8 @@
 .app {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-    background-color: rgb(146, 146, 146);
+  background-color: rgb(146, 146, 146);
+  user-select: none;
 }
 
 .container {
@@ -126,6 +127,7 @@
   align-items: center;
   flex-direction: column;
   padding: 1rem;
+  position: static;
 
   .navigator-dot {
     width: 13px;
@@ -145,6 +147,10 @@
       height: 20px;
     }
   }
+}
+
+.navigator-dot-sideDiv {
+  background-color: blue;
 }
 
 @media screen and (max-width: 500px) {
