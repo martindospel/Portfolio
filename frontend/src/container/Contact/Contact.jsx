@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import "./Contact.scss";
 import emailjs from "emailjs-com";
 import { AppWrap, MotionWrap } from "../../wrapper";
-// import { FaAngleUp } from "react-icons/fa";
 
 const Contact = () => {
   const form = useRef();
@@ -65,29 +64,21 @@ const Contact = () => {
             value="SEND"
             id="input-submit"
             onClick={() => {
-              (document.getElementById("input-name").value !== "") &
-                (document.getElementById("input-email").value !== "") &
-                (document.getElementById("input-message").value !== "") &&
-                alert(
-                  "Thank you for your message! I will get back to you shortly."
-                );
+              /^[\p{L}\p{N}*-]+$/u.test(
+                document.getElementById("input-name").value
+              ) &
+              /[^\s@]+@[^\s@]+\.[^\s@]+/g.test(
+                document.getElementById("input-email").value
+              ) &
+              (document.getElementById("input-message").value !== "")
+                ? alert(
+                    "Thank you for your message! I will get back to you shortly."
+                  )
+                : alert("Please fill in fields before sending. Thank you.");
             }}
           />
         </form>
       </div>
-      {/* <div className="top-to-btm">
-        <div className="icon-position">
-          <FaAngleUp
-            className="icon-style"
-            onClick={() => {
-              window.scrollTo({
-                top: 0,
-                behavior: "smooth",
-              });
-            }}
-          />
-        </div>
-      </div> */}
     </>
   );
 };
