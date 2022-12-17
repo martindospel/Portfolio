@@ -15,7 +15,7 @@ I was born in Slovakia and raised in the UK where I obtained my International Re
 3. _Go REST API_ - I built a small RESTful API with **Golang** and SQLite, a relational database. (Link to the [Code](https://github.com/martindospel/REST-API-with-GO))
 4. _Unsplash Pepper_ - A very simple image searching tool using the Unsplash API. (Links to the [Code](https://github.com/martindospel/unsplash-pepper-react) and the [Website](http://unsplash-pepperjs.s3-website.eu-north-1.amazonaws.com/))
 5. _TypeScript REST API_ - I built a small RESTful API with **TypeScript**. (Link to the [Code](https://github.com/martindospel/typescript-express))
-6. _Algorithms_ - In this repository, I discover the benefits of using **memoization** and **tabulation**. (Link to the [Code](https://github.com/martindospel/algorithms))
+6. _Algorithms_ - In this repository, I tackle some algorithms using **memoization** and **tabulation**. (Link to the [Code](https://github.com/martindospel/algorithms))
 
 ### Skills and Experience
 
