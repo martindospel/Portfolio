@@ -25,9 +25,11 @@ import scssblack from "../assets/scssblack.png";
 import trello from "../assets/trello.png";
 import tsblack from "../assets/tsblack.png";
 import typescript from "../assets/typescript.png";
+import greybg from "../assets/greybg.png";
 
 // eslint-disable-next-line
 export default {
+  greybg,
   trello,
   mongodb,
   postgres,

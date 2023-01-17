@@ -2,13 +2,11 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: rgb(146, 146, 146);
-  user-select: none;
 }
 
 .container {
   width: 100%;
   min-height: 100vh;
-
   display: flex;
   flex-direction: row;
 }
