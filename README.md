@@ -16,7 +16,8 @@ I was born in Slovakia and raised in the UK where I obtained my International Re
 4. _Unsplash Pepper_ - A very simple image searching tool using the Unsplash API. (Links to the [Code](https://github.com/martindospel/unsplash-pepper-react) and the [Website](http://unsplash-pepperjs.s3-website.eu-north-1.amazonaws.com/))
 5. _TypeScript REST API_ - I built a small RESTful API with **TypeScript**. (Link to the [Code](https://github.com/martindospel/typescript-express))
 6. _Algorithms_ - In this repository, I tackle some algorithms using **memoization** and **tabulation**. (Link to the [Code](https://github.com/martindospel/algorithms))
+7. _Todo-Checklist_ - I built a react todo checklist with **redux** state management. (Link to the [Code](https://github.com/martindospel/todo-checklist))
 
 ### Skills and Experience
 
-In this final section, I wanted to share my technical skills that I feel comfortable with and my professional working experience.
+In this final section, I share my technical skills that I feel comfortable with and my professional working experience. Despite having cross-sectoral, I feel that many skills are trasnferrable to the tech sector. Check out my [LinkedIn](https://www.linkedin.com/in/martindospel/) for more information. 
